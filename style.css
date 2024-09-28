@@ -1,0 +1,35 @@
+body{
+    background-color: #DE5D83;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#glCanvas{
+    border: 3px solid #CB4154;
+    display: block;
+    margin: auto;
+}
+
+.button-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 3px solid #FFC1CC;
+    background-color: #FFC1CC;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+}
